@@ -62,7 +62,6 @@
               </ul>
             </li>
           </ul>
-
         </div>
       </div>
     </div>
@@ -75,8 +74,10 @@
       <div class="row">
         <div class="span4" id="sidebar">
           <h2>SideBar</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+					<ul class="nav nav-list">
+						<li class="nav-header">Sample List</li>
+						<li><a href="./masonry.html">jQuery Masonry</a></li>
+					</ul>
         </div>
         <div class="span8">
           <h2>Main</h2>
@@ -92,6 +93,9 @@
                 <li><a href="#menu2" data-toggle="tab">フォーム</a></li>
                 <li><a href="#menu3" data-toggle="tab">プログレスバー</a></li>
                 <li><a href="#menu4" data-toggle="tab">ナビゲーション</a></li>
+                <li><a href="#menu5" data-toggle="tab">モーダル</a></li>
+                <li><a href="#menu6" data-toggle="tab">ツールチップ</a></li>
+                <li><a href="#menu7" data-toggle="tab">入力補完</a></li>
               </ul>
               <div class="tab-content">
                 <div id="menu1" class="tab-pane active">
@@ -206,7 +210,31 @@
 							        </ul>
 							    </div>
 								</div>
-              </div>
+                <div id="menu5" class="tab-pane">
+							    <a href="#myModal" class="btn" data-toggle="modal">モーダル！</a>
+							    
+							    <div class="modal hide fade" id="myModal">
+							        <div class="modal-header">
+							            <a class="close" data-dismiss="modal">x</a>
+							            <h3>MODAL!</h3>
+							        </div>
+							        <div class="modal-body">
+							        <p>BODY!</p>
+							        </div>
+							        <div class="modal-footer">
+							            <a href="#" class="btn btn-primary">OK!</a>
+							            <a href="#" class="btn" data-dismiss="modal">Cancel</a>
+							        </div>
+							    </div>
+								</div>
+                <div id="menu6" class="tab-pane">
+									<p><a href="#" rel="tooltip" data-original-title="金色のモビルスーツ！">百式</a>はいいね！</p>
+									<p><a href="#" rel="popover" data-original-title="金色のモビルスーツ！" data-content="シャアがのっていた！">百式</a>はいいね！</p>
+	              </div>
+                <div id="menu7" class="tab-pane">
+									<input type="text" class="span3" data-provide="typeahead" data-items="3" data-source='["渋谷","谷尾","谷口","谷田","田口"]'>
+								</div>
+            </div>
             </div>
         </div>
       </div>
@@ -230,6 +258,11 @@
 	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 	s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
-
+<script>
+    $(function() {
+        $('a[rel=tooltip]').tooltip();
+        $('a[rel=popover]').popover();
+    });
+</script>
 </body>
 </html>
