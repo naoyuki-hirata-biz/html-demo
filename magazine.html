@@ -21,6 +21,13 @@
 	  padding-bottom: 40px;
 	  background: #F2F0F0
 	}
+	.imgBox img {
+    min-width: 80px;
+    min-height: 80px;
+    float: left;
+    margin-right: 2px;
+    margin-top: 2px;
+  }
   .goodsTJ {
     margin-left: auto;
     margin-right: auto;
@@ -31,7 +38,7 @@
     margin-right: 6px;
     margin-left: 6px;
     word-wrap: break-word;
-    float: left;
+    
   }
   .box_shadow {
     background: white;
@@ -40,7 +47,10 @@
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
-    width: 228px;
+    margin: 6px;
+    padding: 6px;
+    float: left;
+    width: 280px;
   }
 	</style>
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -98,72 +108,374 @@
           <div id="container">
             <div class="tabbable">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#menu1" data-toggle="tab">甜美</a></li>
-              <li><a href="#" data-toggle="tab">欧美</a></li>
+              <li class="active"><a href="#menu1" data-toggle="tab">キュート</a></li>
+              <li><a href="#" data-toggle="tab">欧米風</a></li>
               <li><a href="#" data-toggle="tab">日系</a></li>
-              <li><a href="#" data-toggle="tab">复古</a></li>
-              <li><a href="#" data-toggle="tab">个性</a></li>
+              <li><a href="#" data-toggle="tab">レトロ</a></li>
+              <li><a href="#" data-toggle="tab">森ガール</a></li>
             </ul>
             <div class="tab-content">
-              <div id="menu1" class="tab-pane active">
-                <div class="row-fluid">
+              <div id="menu1" class="tab-panel active">
+                <div class="row imgBox">
                   <div class="span3">
-                    <div class="box_shadow">
-                    <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">Bluebrryの日系社</a></h4>
-                      <img src="http://lorempixel.com/64/64/fashion/1">
-                      <img src="http://lorempixel.com/64/64/abstract/1">
-                      <img src="http://lorempixel.com/64/64/animals/1">
-                      <img src="http://lorempixel.com/64/64/city/1">
-                      <img src="http://lorempixel.com/64/64/food/1">
-                      <img src="http://lorempixel.com/64/64/nightlife/1">
-                      <img src="http://lorempixel.com/64/64/people/1">
-                      <img src="http://lorempixel.com/64/64/nature/1">
-                      <img src="http://lorempixel.com/64/64/sports/1">
-                    </div>
+                    <div class="box_shadow" style="float: left;">
+                      <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">Ａさんの雑誌</a></h4>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/fashion/1">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/abstract/1">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/animals/1">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/city/1">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/food/1">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nightlife/1">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/people/1">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nature/1">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/sports/1">
+                        </div>
+                      </div>
+                      <div class="row" style="float: left; margin-top: 4px;">
+                        <div class="span3">
+                          <i class="icon-heart"></i>10
+                          <button class="btn"><i class="icon-plus"></i>お気に入り</button>
+                        </div>
+                      </div>
                   </div>
+                  </div><!-- /span3 -->
                   <div class="span3">
                     <div class="box_shadow">
-                    <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">日单精品</a></h4>
-                      <img src="http://lorempixel.com/64/64/fashion/2">
-                      <img src="http://lorempixel.com/64/64/abstract/2">
-                      <img src="http://lorempixel.com/64/64/animals/2">
-                      <img src="http://lorempixel.com/64/64/city/2">
-                      <img src="http://lorempixel.com/64/64/food/2">
-                      <img src="http://lorempixel.com/64/64/nightlife/2">
-                      <img src="http://lorempixel.com/64/64/people/2">
-                      <img src="http://lorempixel.com/64/64/nature/2">
-                      <img src="http://lorempixel.com/64/64/sports/2">
+                      <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">Ｂさんの雑誌</a></h4>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/fashion/2">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/abstract/2">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/animals/2">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/city/2">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/food/2">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nightlife/2">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/people/2">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nature/2">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/sports/2">
+                        </div>
+                      </div>
+                      <div class="row" style="float: left; margin-top: 4px;">
+                        <div class="span3">
+                          <i class="icon-heart"></i>20
+                          <button class="btn"><i class="icon-plus"></i>お気に入り</button>
+                        </div>
+                      </div>
                     </div>
+                  </div><!-- /span3 -->
+                  <div class="span3">
+                    <div class="box_shadow">
+                      <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">Ｃさんの雑誌</a></h4>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/fashion/3">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/abstract/3">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/animals/3">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/city/3">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/food/3">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nightlife/3">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/people/3">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nature/3">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/sports/3">
+                        </div>
+                      </div>
+                      <div class="row" style="float: left; margin-top: 4px;">
+                        <div class="span3">
+                          <i class="icon-heart"></i>30
+                          <button class="btn"><i class="icon-plus"></i>お気に入り</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- /span3 -->
+                  <div class="span3">
+                    <div class="box_shadow">
+                      <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">Ｄさんの雑誌</a></h4>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/fashion/4">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/abstract/4">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/animals/4">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/city/4">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/food/4">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nightlife/4">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/people/4">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nature/4">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/sports/4">
+                        </div>
+                      </div>
+                      <div class="row" style="float: left; margin-top: 4px;">
+                        <div class="span3">
+                          <i class="icon-heart"></i>40
+                          <button class="btn"><i class="icon-plus"></i>お気に入り</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- /span3 -->
+                </div><!-- /row -->
+
+                <div class="row imgBox">
+                  <div class="span3">
+                    <div class="box_shadow" style="float: left;">
+                      <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">Ｅさんの雑誌</a></h4>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/fashion/5">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/abstract/5">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/animals/5">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/city/5">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/food/5">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nightlife/5">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/people/5">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nature/5">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/sports/5">
+                        </div>
+                      </div>
+                      <div class="row" style="float: left; margin-top: 4px;">
+                        <div class="span3">
+                          <i class="icon-heart"></i>10
+                          <button class="btn"><i class="icon-plus"></i>お気に入り</button>
+                        </div>
+                      </div>
                   </div>
+                  </div><!-- /span3 -->
                   <div class="span3">
                     <div class="box_shadow">
-                    <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">unique Definition</a></h4>
-                      <img src="http://lorempixel.com/64/64/fashion/3">
-                      <img src="http://lorempixel.com/64/64/abstract/3">
-                      <img src="http://lorempixel.com/64/64/animals/3">
-                      <img src="http://lorempixel.com/64/64/city/3">
-                      <img src="http://lorempixel.com/64/64/food/3">
-                      <img src="http://lorempixel.com/64/64/nightlife/3">
-                      <img src="http://lorempixel.com/64/64/people/3">
-                      <img src="http://lorempixel.com/64/64/nature/3">
-                      <img src="http://lorempixel.com/64/64/sports/3">
+                      <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">Ｆさんの雑誌</a></h4>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/fashion/6">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/abstract/6">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/animals/6">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/city/6">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/food/6">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nightlife/6">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/people/6">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nature/6">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/sports/6">
+                        </div>
+                      </div>
+                      <div class="row" style="float: left; margin-top: 4px;">
+                        <div class="span3">
+                          <i class="icon-heart"></i>20
+                          <button class="btn"><i class="icon-plus"></i>お気に入り</button>
+                        </div>
+                      </div>
                     </div>
-                  </div>
+                  </div><!-- /span3 -->
                   <div class="span3">
                     <div class="box_shadow">
-                    <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">VIVI复古甜心</a></h4>
-                      <img src="http://lorempixel.com/64/64/fashion/4">
-                      <img src="http://lorempixel.com/64/64/abstract/4">
-                      <img src="http://lorempixel.com/64/64/animals/4">
-                      <img src="http://lorempixel.com/64/64/city/4">
-                      <img src="http://lorempixel.com/64/64/food/4">
-                      <img src="http://lorempixel.com/64/64/nightlife/4">
-                      <img src="http://lorempixel.com/64/64/people/4">
-                      <img src="http://lorempixel.com/64/64/nature/4">
-                      <img src="http://lorempixel.com/64/64/sports/4">
+                      <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">Ｇさんの雑誌</a></h4>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/fashion/7">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/abstract/7">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/animals/7">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/city/7">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/food/7">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nightlife/7">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/people/7">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nature/7">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/sports/7">
+                        </div>
+                      </div>
+                      <div class="row" style="float: left; margin-top: 4px;">
+                        <div class="span3">
+                          <i class="icon-heart"></i>30
+                          <button class="btn"><i class="icon-plus"></i>お気に入り</button>
+                        </div>
+                      </div>
                     </div>
-                  </div>                  
-                </div>
+                  </div><!-- /span3 -->
+                  <div class="span3">
+                    <div class="box_shadow">
+                      <h4><a target="_blank" href="http://www.meilishuo.com/group/33017">Ｈさんの雑誌</a></h4>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/fashion/8">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/abstract/8">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/animals/8">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/city/8">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/food/8">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nightlife/8">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/people/8">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/nature/8">
+                        </div>
+                        <div class="span1">
+                          <img src="http://lorempixel.com/80/80/sports/8">
+                        </div>
+                      </div>
+                      <div class="row" style="float: left; margin-top: 4px;">
+                        <div class="span3">
+                          <i class="icon-heart"></i>40
+                          <button class="btn"><i class="icon-plus"></i>お気に入り</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- /span3 -->
+                </div><!-- /row -->
+
+
+
               </div>
             </div>
           <hr>
